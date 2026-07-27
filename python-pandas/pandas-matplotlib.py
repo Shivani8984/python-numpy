@@ -9,6 +9,8 @@ xpoints = np.array([1, 8])
 ypoints = np.array([3, 10])
 
 df = pd.read_csv('./data/transaction1.csv')
+df1 = pd.read_csv('./data/transactions2.csv')
+ 
 # print(df)
 
 # plt.plot(df["TransactionID"], df["SalesAmount"])
